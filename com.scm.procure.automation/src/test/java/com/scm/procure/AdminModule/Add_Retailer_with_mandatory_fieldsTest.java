@@ -25,11 +25,9 @@ public class Add_Retailer_with_mandatory_fieldsTest extends BaseClass {
 		AdminHomePage aHome = new AdminHomePage(driver);
 		aHome.getAddRetailers_Btn().click();
 
-	
 		AddRetailerPage retailerPage = new AddRetailerPage(driver);
 		retailerPage.addRetailer(driver);
-		
-
+	
 		wLib.alertPopupGetText(driver);
 		wLib.alertPopUpAccept(driver);
 		aHome.getRtailers_Btn().click();

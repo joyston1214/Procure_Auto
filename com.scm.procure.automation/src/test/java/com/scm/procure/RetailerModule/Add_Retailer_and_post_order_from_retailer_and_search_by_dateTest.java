@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.scm.procure.GenericUtils.ExcelUtils;
 import com.scm.procure.GenericUtils.FileUtils;
+import com.scm.procure.GenericUtils.NonBaseClass;
 import com.scm.procure.GenericUtils.WebDriverUtils;
 import com.scm.procure.pom.AddRetailerPage;
 import com.scm.procure.pom.AdminHomePage;
@@ -16,7 +17,7 @@ import com.scm.procure.pom.LoginPage;
 import com.scm.procure.pom.OrderItemPage;
 import com.scm.procure.pom.RetailerHomePage;
 
-public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest {
+public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest extends NonBaseClass {
 	
 	@Test
 	public  void AddRetailerAndPostOrderFromRetailerAndSearchByDateTest() throws IOException, InterruptedException {
@@ -30,10 +31,7 @@ public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest {
 		String adminPwd = fLib.readDataFromPropertyFile("password");
 		String loginType = fLib.readDataFromPropertyFile("adminLoginType");
 
-		WebDriver driver = new ChromeDriver();
-		wLib.maximizeWindow(driver);
-		wLib.implicitlyWait(driver, 10);
-		Thread.sleep(10000);
+
 		driver.get(url);
 
 		LoginPage lp = new LoginPage(driver);

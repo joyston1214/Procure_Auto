@@ -5,6 +5,7 @@
     <classes>
       <class name="com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest">
         <methods>
+          <include name="AC"/>
           <include name="BC"/>
           <include name="ManufacturerAddProductsByKGAndEnableStockTest"/>
         </methods>

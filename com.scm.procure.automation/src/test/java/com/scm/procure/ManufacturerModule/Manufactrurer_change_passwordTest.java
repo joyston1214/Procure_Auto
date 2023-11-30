@@ -5,17 +5,21 @@ import java.util.HashMap;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.scm.procure.GenericUtils.ExcelUtils;
 import com.scm.procure.GenericUtils.FileUtils;
+import com.scm.procure.GenericUtils.NonBaseClass;
 import com.scm.procure.GenericUtils.WebDriverUtils;
 import com.scm.procure.pom.AdminHomePage;
 import com.scm.procure.pom.LoginPage;
 import com.scm.procure.pom.ManufactureEditProfilePage;
 import com.scm.procure.pom.ManufacturerHomePage;
 
-public class Manufactrurer_change_passwordTest {
-	public static void main(String[] args) throws IOException, InterruptedException {
+public class Manufactrurer_change_passwordTest extends NonBaseClass {
+	
+	@Test
+	public  void ManufactrurerChangePasswordTest() throws IOException, InterruptedException {
 		
 		FileUtils fLib = new FileUtils();
 		ExcelUtils eLib = new ExcelUtils();
@@ -27,10 +31,7 @@ public class Manufactrurer_change_passwordTest {
 		String manufacturerPwd = fLib.readDataFromPropertyFile("mpassword");
 		String loginType = fLib.readDataFromPropertyFile("manufacturerLoginType");
 		
-		WebDriver driver = new ChromeDriver();
-		wLib.maximizeWindow(driver);
-		wLib.implicitlyWait(driver, 10);
-		Thread.sleep(10000);
+	
 		driver.get(url);
 		
 

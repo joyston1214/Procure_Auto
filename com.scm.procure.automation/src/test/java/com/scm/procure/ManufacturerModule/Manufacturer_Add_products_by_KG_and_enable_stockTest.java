@@ -64,7 +64,7 @@ public class Manufacturer_Add_products_by_KG_and_enable_stockTest extends NonBas
 		} else {
 			System.out.println("product is validated, Tc Fail");
 		}
-		driver.quit();
+		
 	}
 
 }
