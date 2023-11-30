@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="TestRunner=1">
+    <classes>
+      <class name="com.scm.procure.AdminModule.Add_Retailer_with_mandatory_fieldsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test  name="TestRunner=2">
+    <classes>
+      <class name="com.scm.procure.AdminModule.Search_the_invoice_by_Invoice_idTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
