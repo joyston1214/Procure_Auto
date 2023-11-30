@@ -27,7 +27,7 @@ public class Manufactrurer_change_passwordTest extends NonBaseClass {
 		
 		
 		String url = fLib.readDataFromPropertyFile("url");
-		String manufacturerUn = fLib.readDataFromPropertyFile("musername");
+		String manufacturerUn = fLib.readDataFromPropertyFile(eLib.readDataFromExcel("mpwd", 0, 4));
 		String manufacturerPwd = fLib.readDataFromPropertyFile("mpassword");
 		String loginType = fLib.readDataFromPropertyFile("manufacturerLoginType");
 		

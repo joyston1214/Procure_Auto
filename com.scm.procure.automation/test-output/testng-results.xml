@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[ManufacturerAddProductsByKGAndEnableStockTest---TestScript execution starts from here---]]>
+    </line>
+    <line>
+      <![CDATA[ManufacturerAddProductsByKGAndEnableStockTest---TestScript executed successfully---]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-11-30T15:05:45 IST" name="Default suite" finished-at="2023-11-30T15:06:03 IST" duration-ms="17819">
+  <suite started-at="2023-11-30T15:27:56 IST" name="Default suite" finished-at="2023-11-30T15:28:15 IST" duration-ms="19767">
     <groups>
     </groups>
-    <test started-at="2023-11-30T15:05:45 IST" name="Default test" finished-at="2023-11-30T15:06:03 IST" duration-ms="17819">
-      <class name="com.scm.procure.RetailerModule.Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest">
-        <test-method is-config="true" signature="BC()[pri:0, instance:com.scm.procure.RetailerModule.Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest@4afcd809]" started-at="2023-11-30T15:05:45 IST" name="BC" finished-at="2023-11-30T15:05:57 IST" duration-ms="12376" status="PASS">
+    <test started-at="2023-11-30T15:27:56 IST" name="Default test" finished-at="2023-11-30T15:28:15 IST" duration-ms="19767">
+      <class name="com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest">
+        <test-method is-config="true" signature="BC()[pri:0, instance:com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest@5b7a5baa]" started-at="2023-11-30T15:27:56 IST" name="BC" finished-at="2023-11-30T15:28:08 IST" duration-ms="12024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method signature="AddRetailerAndPostOrderFromRetailerAndSearchByDateTest()[pri:0, instance:com.scm.procure.RetailerModule.Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest@4afcd809]" started-at="2023-11-30T15:05:57 IST" name="AddRetailerAndPostOrderFromRetailerAndSearchByDateTest" finished-at="2023-11-30T15:06:03 IST" duration-ms="5276" status="PASS">
+        <test-method signature="ManufacturerAddProductsByKGAndEnableStockTest()[pri:0, instance:com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest@5b7a5baa]" started-at="2023-11-30T15:28:08 IST" name="ManufacturerAddProductsByKGAndEnableStockTest" finished-at="2023-11-30T15:28:15 IST" duration-ms="7321" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[ManufacturerAddProductsByKGAndEnableStockTest---TestScript execution starts from here---]]>
+            </line>
+            <line>
+              <![CDATA[ManufacturerAddProductsByKGAndEnableStockTest---TestScript executed successfully---]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- AddRetailerAndPostOrderFromRetailerAndSearchByDateTest -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:com.scm.procure.RetailerModule.Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest@4afcd809]" started-at="2023-11-30T15:06:03 IST" name="AC" finished-at="2023-11-30T15:06:03 IST" duration-ms="131" status="PASS">
+        </test-method> <!-- ManufacturerAddProductsByKGAndEnableStockTest -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest@5b7a5baa]" started-at="2023-11-30T15:28:15 IST" name="AC" finished-at="2023-11-30T15:28:15 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-      </class> <!-- com.scm.procure.RetailerModule.Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest -->
+      </class> <!-- com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

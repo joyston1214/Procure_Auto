@@ -39,7 +39,7 @@ public class Manufacturer_Add_products_by_KG_and_enable_stockTest extends NonBas
 
 		ManufacturerHomePage mHomePage = new ManufacturerHomePage(driver);
 		mHomePage.getAddProduct_Btn().click();
-		Assert.fail();
+	
 
 		AddProductPage addProductPage = new AddProductPage(driver); 
 		HashMap<String, String> productDetails = eLib.readMultipleDataKeyAndValue("productDetails", driver);
