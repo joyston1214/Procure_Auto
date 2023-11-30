@@ -3,8 +3,6 @@ package com.scm.procure.ManufacturerModule;
 import java.io.IOException;
 import java.util.HashMap;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.scm.procure.GenericUtils.ExcelUtils;
@@ -27,9 +25,10 @@ public class Manufactrurer_change_passwordTest extends NonBaseClass {
 		
 		
 		String url = fLib.readDataFromPropertyFile("url");
-		String manufacturerUn = fLib.readDataFromPropertyFile(eLib.readDataFromExcel("mpwd", 0, 4));
+		String manufacturerUn = eLib.readDataFromExcel("mpwd",0,4);
 		String manufacturerPwd = fLib.readDataFromPropertyFile("mpassword");
 		String loginType = fLib.readDataFromPropertyFile("manufacturerLoginType");
+		System.out.println(manufacturerUn+" "+manufacturerPwd);
 		
 	
 		driver.get(url);

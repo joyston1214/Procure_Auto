@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest">
+      <class name="com.scm.procure.ManufacturerModule.Manufactrurer_change_passwordTest">
         <methods>
           <include name="AC"/>
           <include name="BC"/>
-          <include name="ManufacturerAddProductsByKGAndEnableStockTest"/>
+          <include name="ManufactrurerChangePasswordTest"/>
         </methods>
-      </class> <!-- com.scm.procure.ManufacturerModule.Manufacturer_Add_products_by_KG_and_enable_stockTest -->
+      </class> <!-- com.scm.procure.ManufacturerModule.Manufactrurer_change_passwordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

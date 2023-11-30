@@ -22,7 +22,7 @@ public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest ex
 	@Test
 	public  void AddRetailerAndPostOrderFromRetailerAndSearchByDateTest() throws IOException, InterruptedException {
 
-		FileUtils fLib = new FileUtils();
+		FileUtils fLib = new FileUtils(); 
 		ExcelUtils eLib = new ExcelUtils();
 		WebDriverUtils wLib = new WebDriverUtils();
 
@@ -30,7 +30,7 @@ public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest ex
 		String adminUn = fLib.readDataFromPropertyFile("username");
 		String adminPwd = fLib.readDataFromPropertyFile("password");
 		String loginType = fLib.readDataFromPropertyFile("adminLoginType");
-
+   
 
 		driver.get(url);
 
@@ -51,7 +51,7 @@ public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest ex
 		String retailerPwd = eLib.readDataFromExcel("Sheet1", 1, 1);
 		String actRes = driver.findElement(By.xpath("//td[@id]//td[contains(.,'" + retailerUn + "')]")).getText();
 		if (retailerUn.equals(actRes)) {
-			System.out.println("retailer validated");
+			System.out.println("retailer validated"); 
 		} else {
 			System.out.println("retailer not validated");
 		}
