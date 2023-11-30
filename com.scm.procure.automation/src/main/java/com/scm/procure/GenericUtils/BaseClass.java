@@ -51,7 +51,7 @@ public class BaseClass {
 			System.out.println("enter a valid browser name");
 		}
 		sdriver=driver;
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		System.out.println("browser launched");

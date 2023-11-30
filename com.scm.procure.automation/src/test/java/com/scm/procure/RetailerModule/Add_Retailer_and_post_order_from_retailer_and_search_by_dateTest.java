@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.scm.procure.GenericUtils.ExcelUtils;
 import com.scm.procure.GenericUtils.FileUtils;
@@ -16,7 +17,9 @@ import com.scm.procure.pom.OrderItemPage;
 import com.scm.procure.pom.RetailerHomePage;
 
 public class Add_Retailer_and_post_order_from_retailer_and_search_by_dateTest {
-	public static void main(String[] args) throws IOException, InterruptedException {
+	
+	@Test
+	public  void AddRetailerAndPostOrderFromRetailerAndSearchByDateTest() throws IOException, InterruptedException {
 
 		FileUtils fLib = new FileUtils();
 		ExcelUtils eLib = new ExcelUtils();
